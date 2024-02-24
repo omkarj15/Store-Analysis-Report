@@ -98,16 +98,23 @@ This GitHub repository includes machine learning algorithms, such as RFM (Recenc
   - Recency: How recently a customer made a purchase.
   - Frequency: How often a customer makes purchases.
   - Monetary: How much money a customer spends.
+     ![Screenshot](Image/recency.png)
 
 ### Implementation
 - Python scripts within the ML_Models folder implement RFM analysis to categorize customers into different groups based on their RFM scores.
 - These scores help identify loyal customers who contribute significantly to the business's revenue.
 
+## Pareto Principle (80/20 Rule)
+
+### Observation
+- According to the Pareto Principle, 36% of customers contribute to 61% of business revenue.
+- Only 1.9% of customers contribute negligibly to the business's revenue, with their RFM scores falling below a certain threshold.
+- While this reflects the Pareto rule, we leverage it to optimize business strategies and improve profitability.
+
+ ![Screenshot](Image/customer.png)  ![Screenshot](Image/Buisness.png)
+
 
 # Low RFM Value Customers
-
-## Identification
-- Only 1.9% of customers contribute negligibly to the business's revenue, with their RFM scores falling below a certain threshold.
 
 ## Strategies
 
@@ -120,12 +127,8 @@ This GitHub repository includes machine learning algorithms, such as RFM (Recenc
 ### Customer Experience Improvement
 - Focus on improving the overall customer experience for low RFM value customers, addressing any pain points or areas of dissatisfaction to encourage repeat business.
 
-## Pareto Principle (80/20 Rule)
 
-### Observation
-- According to the Pareto Principle, 36% of customers contribute to 61% of business revenue.
-- While this reflects the Pareto rule, we leverage it to optimize business strategies and improve profitability.
-
+# HIgh RFM Value Customers
 ## Recommendations
 
 ### Loyalty Program Development
