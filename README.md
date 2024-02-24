@@ -88,7 +88,7 @@ The project architecture is the structural design that outlines how data is coll
 
 # Machine Learning Algorithm
 
-This GitHub repository includes machine learning algorithms, such as RFM (Recency, Frequency, and Monetary) analysis, implemented to identify loyal customers. Python scripts within the ML_Models folder are dedicated to implementing these machine learning algorithms and grouping customers based on their behavior.
+This GitHub repository includes machine learning algorithms, such as RFM (Recency, Frequency, and Monetary) analysis, implemented to identify loyal customers. Python scripts within the Python scrifting folder folder are dedicated to implementing these machine learning algorithms and grouping customers based on their behavior.
 
 ## RFM Analysis
 
