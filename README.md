@@ -1,26 +1,90 @@
-# Store-Analysis-Report
+# Data Insights Pipeline: SuperStore Analysis
 
 ## Overview
-The Store Analysis Report project aims to provide insights into store data using ETL/ELT processes, unsupervised machine learning techniques, and Tableau visualization. The project involves data extraction, transformation, and loading, followed by the application of unsupervised ML algorithms to identify loyal customers. Additionally, it includes the creation of a Tableau dashboard for business insights.
 
-## Project Structure
+The project at hand revolves around the creation of a robust data transformation and analysis pipeline for a fictional company, leveraging data from its Microsoft SQL Server database named "SuperStore." This pipeline aims to extract, transform, and analyze data to derive actionable insights, support decision-making processes, and drive business growth.
 
-The project follows a Medalian Architecture, organized into the following directories:
+## Objective:
+
+The primary objective of the project is to establish an efficient and scalable data processing pipeline that enables the company to:
+
+1. Extract relevant data from the SuperStore SQL Server database.
+2. Clean, transform, and enrich the extracted data to make it suitable for analysis.
+3. Store the processed data in a structured manner for easy access and retrieval.
+4. Utilize data visualization techniques to gain insights and communicate findings effectively.
+5. Develop and train machine learning models to predict future outcomes and optimize business operations.
+
+
+# Project Architecture
+
+The project follows a Architecture, as below:
 ![Screenshot](Image/architecture.jpg)
 
-## ETL Process
+# Architecture
 
-1. **Data Scrapping:**
-   - Data is extracted from the MS SQL Database using Python scripts.
-   - Raw data is stored in the `DataStorage/Bronze` folder in parquet format.
+The project architecture is the structural design that outlines how data is collected, processed, stored, and utilized within a system. In the context of this specific project, the architecture revolves around handling data from a Microsoft SQL Server database called "SuperStore" using Python notebooks (Jupyter notebooks), storing it at different stages of transformation (Bronze, Silver, and Gold), and employing it for data visualization and machine learning tasks.
 
-2. **Data Cleaning (Silver):**
-   - Duplicates are treated, missing values are handled, and noise data is checked.
-   - Cleaned data is saved in the `DataStorage/Silver` folder in parquet format.
+## Components of the Project Architecture:
 
-3. **Data Transformation (Gold):**
-   - Further data transformation is performed, resulting in the final format.
-   - Transformed data is saved in the `DataStorage/Gold` folder in parquet format.
+1. **Data Source: Microsoft SQL Server (SuperStore)**:
+   - This is the primary repository of the project's raw data. It contains tables with information about orders, customers, products, and sales transactions.
+
+2. **ETL Process: Python Notebooks (Jupyter Notebooks)**:
+   - Python notebooks, specifically Jupyter notebooks, are utilized for the Extract, Transform, Load (ETL) process. These notebooks provide an interactive environment where Python code can be written and executed to extract data from the SQL Server database, transform it according to predefined rules, and load it into different storage layers.
+
+      a).  **Data Scrapping:**
+         Data is extracted from the MS SQL Database using Python scripts.
+         Raw data is stored in the `DataStorage/Bronze` folder in parquet format.
+      
+      b).  **Data Cleaning (Silver):**
+         Duplicates are treated, missing values are handled, and noise data is checked.
+         Cleaned data is saved in the `DataStorage/Silver` folder in parquet format.
+      
+      c).  **Data Transformation (Gold):**
+         Further data transformation is performed, resulting in the final format.
+         Transformed data is saved in the `DataStorage/Gold` folder in parquet format.
+
+
+3. **Storage Layers: Bronze, Silver, and Gold**:
+   - **Bronze Layer**:
+     - Initial storage layer where raw data from the SQL Server database is stored without any modifications.
+   - **Silver Layer**:
+     - Intermediate storage layer where data undergoes transformation, cleaning, and enrichment processes. New columns are added, and calculations are performed to prepare the data for analysis.
+   - **Gold Layer**:
+     - Final storage layer where processed data, along with the results of machine learning analyses, is stored. This layer serves as the foundation for generating insights and making data-driven decisions.
+
+4. **Data Visualization Tool: Tableau**:
+   - Tableau is utilized for creating visualizations, dashboards, and reports based on the processed data. It provides an intuitive interface for exploring data, identifying trends, and communicating insights effectively to stakeholders.
+
+5. **Machine Learning Models**:
+   - Processed data from the Gold layer is used to develop and train machine learning models. These models are capable of making predictions, detecting patterns, and classifying data based on historical observations.
+
+## How the Project Architecture Works:
+
+1. **Data Extraction**:
+   - Python notebooks connect to the Microsoft SQL Server database and extract relevant data from the SuperStore tables.
+
+2. **Data Transformation**:
+   - Extracted data undergoes transformation processes within the Jupyter notebooks. This includes cleaning, restructuring, and enriching the data to make it suitable for analysis and modeling.
+
+3. **Data Storage**:
+   - Transformed data is stored in different storage layers:
+     - Bronze: Raw data storage.
+     - Silver: Processed data storage after transformation.
+     - Gold: Final processed data storage after applying machine learning algorithms.
+
+4. **Data Utilization**:
+   - Processed data from the storage layers is utilized for various purposes:
+     - Data visualization using Tableau to gain insights and communicate findings.
+     - Development and training of machine learning models for predictive analytics and decision support.
+
+## Benefits of the Project Architecture:
+
+- **Scalability**: The architecture is designed to handle large volumes of data and can scale as the project requirements evolve.
+- **Flexibility**: Using Python notebooks for ETL processes provides flexibility in data manipulation and transformation.
+- **Interactivity**: Jupyter notebooks allow for interactive exploration and experimentation with data transformation techniques.
+- **Insight Generation**: By leveraging Tableau for data visualization and machine learning models for predictive analytics, the architecture facilitates insight generation and informed decision-making.
+
 
 ##  Machine Learning Algorithm :
 - ML algorithms, such as RFM (Recency, Frequency, Monetary) analysis, are applied to identify loyal customers.
