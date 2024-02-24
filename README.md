@@ -6,6 +6,7 @@ The Store Analysis Report project aims to provide insights into store data using
 ## Project Structure
 
 The project follows a Medalian Architecture, organized into the following directories:
+![Screenshot](image/architecture.png)
 
 ## ETL Process
 
