@@ -6,7 +6,7 @@ The Store Analysis Report project aims to provide insights into store data using
 ## Project Structure
 
 The project follows a Medalian Architecture, organized into the following directories:
-![Screenshot](image/architecture.png)
+![Screenshot](Image/architecture.jpg)
 
 ## ETL Process
 
@@ -29,4 +29,7 @@ The project follows a Medalian Architecture, organized into the following direct
 ## Tableau Dashboard
 - A Tableau dashboard is created to visualize insights derived from the data analysis.
 - The Tableau dashboard files are located in the `Tableau_Dashboard` folder.
+
+ 
+ ![Screenshot](Image/Super_store.png)
 
