@@ -97,3 +97,66 @@ The project architecture is the structural design that outlines how data is coll
  
  ![Screenshot](Image/Super_store.png)
 
+ ## Tableau Dashboard Insights
+
+This GitHub repository contains Tableau dashboard files showcasing insightful visualizations derived from comprehensive data analysis. The Tableau dashboard files are located in the "Tableau Dashboard" folder within this repository.
+
+## Insights Overview
+
+### Customer Strength
+- The business boasts a robust customer base of 793 individuals, indicating a strong market presence.
+
+### Total Orders
+- A significant volume of 5009 orders has been processed, showcasing a substantial demand for the products or services.
+
+### Total Quantity Sold
+- The business has successfully moved 37,989 units, underscoring a considerable level of product adoption.
+
+### Revenue
+- Achieving a noteworthy revenue of $2,311,359 highlights the financial success of the business.
+
+### Net Profit
+- With a net profit of $289,778, the business demonstrates a healthy bottom line.
+
+### Regional Sales Analysis
+- Sales are particularly strong in states such as California, New York, Texas, and Washington, while North Dakota and South Dakota exhibit lower sales.
+
+### Sales Forecasting Analysis
+- Utilizing time series forecasting, the business predicts an upward trend in sales from July 2017 to October 2018, with a discernible yearly seasonality.
+
+### Category Sales Distribution
+- The three main categories (Technology, Office Supplies, Furniture) contribute equally to the overall sales, each ranging between 30-35%.
+
+### Customer Tenure Analysis
+- The tenure of customers follows a negative distribution, indicating a varied range of customer relationships.
+
+### Order Size Distribution
+- Small-sized orders dominate the distribution, followed by medium-sized orders, with larger orders being less common.
+
+### Product Profitability Analysis
+- High-profit items include copper, phones, and accessories. Moderate profits are observed in paper, binders, and chairs. However, there are notable losses associated with supplies, bookcases, and tables.
+
+## Business Optimization Suggestions
+
+### Target Marketing Efforts
+- Focus marketing campaigns in states with higher sales to maximize reach and impact.
+
+### Supply Chain Efficiency
+- Optimize inventory and supply chain processes to meet the demand reflected in the sales forecast.
+
+### Customer Relationship Management
+- Leverage insights from customer tenure analysis to tailor retention strategies for different customer segments.
+
+### Product Mix Adjustment
+- Evaluate the profitability of products and consider adjusting the product mix to emphasize high-profit items and reduce reliance on less profitable products.
+
+### Promotional Strategies
+- Implement targeted promotions or discounts on categories with lower sales to stimulate customer interest and drive sales.
+
+### Order Size Promotion
+- Introduce incentives or promotions to encourage larger order sizes and increase overall transaction value.
+
+### Cost Management
+- Explore cost reduction strategies for products with high losses, ensuring a more sustainable profit margin.
+
+
