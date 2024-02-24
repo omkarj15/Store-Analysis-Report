@@ -146,7 +146,7 @@ By leveraging machine learning algorithms and the insights derived from RFM anal
 
 
 
-## Tableau Dashboard
+# Tableau Dashboard
 - A Tableau dashboard is created to visualize insights derived from the data analysis.
 - The Tableau dashboard files are located in the `Tableau_Dashboard` folder.
 
