@@ -111,7 +111,7 @@ This GitHub repository includes machine learning algorithms, such as RFM (Recenc
 - Only 1.9% of customers contribute negligibly to the business's revenue, with their RFM scores falling below a certain threshold.
 - While this reflects the Pareto rule, we leverage it to optimize business strategies and improve profitability.
 
- ![Screenshot](Image/customer.png)  ![Screenshot](Image/abc.png)
+ ![Screenshot](Image/customer.png)  ![Screenshot](Image/abc.jpg)
 
 
 # Low RFM Value Customers
