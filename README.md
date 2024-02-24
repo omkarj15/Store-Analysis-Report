@@ -21,8 +21,8 @@ The project follows a Medalian Architecture, organized into the following direct
    - Further data transformation is performed, resulting in the final format.
    - Transformed data is saved in the `DataStorage/Gold` folder in parquet format.
 
-## Unsupervised Machine Learning
-- Unsupervised ML algorithms, such as RFM (Recency, Frequency, Monetary) analysis, are applied to identify loyal customers.
+##  Machine Learning Algorithm :
+- ML algorithms, such as RFM (Recency, Frequency, Monetary) analysis, are applied to identify loyal customers.
 - Python scripts in the `ML_Models` folder implement the ML algorithms and group customers based on their behavior.
 
 ## Tableau Dashboard
